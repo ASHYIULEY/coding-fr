@@ -1,0 +1,50 @@
+body{
+    background-color:rgba(237, 171, 171,60);
+    background-color: aliceblue;
+    /*this is how you add a comment in css*/
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+h1 {
+    font-size: 80px;
+    background-color:rgba(237, 171, 171,60);
+
+    font-weight: normal;
+    font-style: oblique;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+a{
+    color:rgba(237, 171, 171,60); 
+    font-weight: bold;
+    text-decoration: none;
+
+}
+a:hover{
+text-decoration; underline; 
+color: red;
+
+}
+hr{
+ border-color:blue;
+ 
+}
+h6{
+    text-transform: uppercase;
+}
+
+.red{ 
+    font-size: 20px;
+    font-weight: 100;
+    background-color: red;
+   color: rgb(10, 38, 141);
+padding: 50px 20px 50px 20px;
+margin: 100px 0;
+
+
+}
+
+#highlight{
+
+    background-color: yellow;
+}
+
+  

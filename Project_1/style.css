@@ -1,0 +1,110 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+
+h1{
+background-color: #E82424; 
+padding: 60px; 
+text-align: left; 
+font-size: 0px; 
+color: white; 
+margin: 0 auto; 
+border:0; 
+}
+
+.title2{
+    background-color:#9cc3cc; 
+    padding: .9px; 
+    top: 0px;
+    transform: rotate(90deg);
+    z-index: 11px;
+
+
+}
+
+.noodles{
+width: 100%;
+top: -303px; 
+position: relative; 
+z-index: 4px; 
+left: -155px;
+}
+
+.center{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 70%
+    left: 60px;
+   
+}
+
+.mymmdcs{
+    flex: 1;
+    top:0;
+    position: relative;
+    right: 0;
+    left: 50px;
+    z-index: 20
+    
+}
+
+
+#michelle{
+background-image: url(images/zauner.png); 
+background-repeat: no-repeat; 
+background-size: contain; 
+width:1000px; 
+height: 9800px; 
+margin:  0auto; 
+position: absolute; 
+top: -38px; 
+right: -150px; 
+z-index: 10px; 
+
+}
+
+.opener{
+background-image:url(images/eugene.png);
+width: 1200px; 
+height: 900px; 
+margin: 0 auto; 
+position: relative; 
+top: -800px; 
+z-index:4px;
+
+
+}
+
+.quote{
+   top: 1480px; 
+   font-family:'Nanum Brush Script', cursive;
+text-align: center; 
+font-size:40px; 
+    left: 30vh; 
+    width:1000px; 
+    height: 600px; 
+    position: absolute;
+    z-index: 10px; 
+    opacity: 50; 
+    overflow-y: hidden;
+}
+
+.quote2{
+    top: 2580px; 
+    font-family:'Nanum Brush Script', cursive;
+ text-align: center; 
+ font-size:36px; 
+     left: 30vh; 
+     width:1000px; 
+     height: 600px; 
+     position: absolute;
+     z-index: 10px; 
+     opacity: 50; 
+     overflow-y: hidden;
+ }
+
+

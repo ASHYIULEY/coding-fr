@@ -1,0 +1,183 @@
+
+
+
+.parent {
+    background-image: url(images/PST00041.JPG); 
+    background-size:cover;
+
+color:aliceblue;
+background-position: center; 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .div1 {grid-area: 1 / 1 / 2 / 2; 
+    margin-top: 200px;
+    margin-bottom: auto;
+margin-right:auto;
+margin-left:auto}
+
+    .btn1{
+   display:absolute; 
+   align-items: center;
+   justify-content: center;
+background-size:contain;
+background-image:url(images/portrait.png);
+background-repeat:no-repeat;
+width: 50vw; 
+height:50vh;
+padding:100px; 
+margin-top: auto;
+background-position: center; 
+margin-bottom: 100px;
+}
+      
+.btn2{
+    display:absolute; 
+    align-items: center;
+    justify-content: center;
+ background-size:contain;
+ background-image:url(images/sunflower.png);
+ background-repeat:no-repeat;
+ width: 50vw; 
+ height:50vh;
+ padding:100px; 
+ margin-top: auto;
+ background-position: center; 
+ margin-bottom: 100px;
+ }
+
+ .btn3{
+    display:absolute; 
+    align-items: center;
+    justify-content: center;
+ background-size:contain;
+ background-image:url(images/cafe.jpg);
+ background-repeat:no-repeat;
+ width: 50vw; 
+ height:50vh;
+ padding:100px; 
+ margin-top: auto;
+ background-position: center; 
+ margin-bottom: 100px;
+    
+ }
+
+ .btn4{
+    display:absolute; 
+    align-items: center;
+    justify-content: center;
+ background-size:contain;
+ background-image:url(images/daisies.jpg);
+ background-repeat:no-repeat;
+ width: 50vw; 
+ height:50vh;
+ padding:100px; 
+ margin-top: auto;
+ background-position: center; 
+ margin-bottom: 100px;
+    
+ }
+
+ .btn5{
+    display:absolute; 
+    align-items: center;
+    justify-content: center;
+ background-size:contain;
+ background-image:url(images/starry.png);
+ background-repeat:no-repeat;
+ width: 50vw; 
+ height:50vh;
+ padding:100px; 
+ margin-top: auto;
+ background-position: center; 
+ margin-bottom: 100px;
+    
+ }
+
+ .btn6{
+    display:absolute; 
+    align-items: center;
+    justify-content: center;
+ background-size:contain;
+ background-image:url(images/room.jpg);
+ background-repeat:no-repeat;
+ width: 50vw; 
+ height:50vh;
+ padding:100px; 
+ margin-top: auto;
+ background-position: center; 
+ margin-bottom: 100px;
+    
+ }
+
+ .btn7{
+    display:absolute; 
+    align-items: center;
+    justify-content: center;
+ background-size:contain;
+ background-image:url(images/iris.jpg);
+ background-repeat:no-repeat;
+ width: 50vw; 
+ height:50vh;
+ padding:100px; 
+ margin-top: auto;
+ background-position: center; 
+ margin-bottom: 100px;
+    
+ }
+
+    .div2 { grid-area: 1 / 2 / 2 / 3; margin-top: 200px;
+    margin-bottom: auto;
+margin-right:auto;
+margin-left:auto}
+
+
+    .div3 { grid-area: 1 / 3 / 2 / 4; margin-top: 200px;
+        margin-bottom: auto;
+    margin-right:auto;
+    margin-left:auto}
+
+
+    .div4 { grid-area: 2 / 1 / 3 / 2; margin-top: 200px;
+        margin-bottom: auto;
+    margin-right:auto;
+    margin-left:auto}
+
+
+    .div5 { grid-area: 2 / 2 / 3 / 3;margin-top: 200px;
+        margin-bottom: auto;
+    margin-right:auto;
+    margin-left:auto }
+
+    .div6 { grid-area: 2 / 3 / 3 / 4; margin-top: 200px;
+        margin-bottom: auto;
+    margin-right:auto;
+    margin-left:auto}
+
+    .div7 { grid-area: 3 / 3 / 4 / 4;margin-top: 200px;
+        margin-bottom: auto;
+    margin-right:auto;
+    margin-left:auto }
+
+    .div8 { grid-area: 3 / 2 / 4 / 3;}
+
+    #title{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        color:rgb(170, 166, 166); 
+        text-align: center;
+        font-size: 80px; 
+        margin-bottom:0;
+    }
+    
+    .div9 { grid-area: 3 / 1 / 4 / 2; 
+        margin-top: 150px;
+}
+    .div10 { grid-area: 4 / 1 / 5 / 2; }
+    .div11 { grid-area: 4 / 2 / 5 / 3; }
+    .div12 { grid-area: 4 / 3 / 5 / 4; }

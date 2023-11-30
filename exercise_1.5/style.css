@@ -179,7 +179,10 @@ margin-left:auto}
     margin-right:auto;
     margin-left:auto }
 
-    .div8 { grid-area: 3 / 2 / 4 / 3;}
+    .div8 { grid-area: 3 / 2 / 4 / 3;argin-top: 200px;
+        margin-bottom: auto;
+    margin-right:auto;
+    margin-left:auto}
 
     #title{
         display:flex;

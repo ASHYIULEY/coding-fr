@@ -1,5 +1,9 @@
 
+header{
+text-align: center; 
+font-style: italic; 
 
+}
 
 .parent {
     background-image: url(images/PST00041.JPG); 
@@ -135,7 +139,23 @@ margin-bottom: 100px;
     align-items: center;
     justify-content: center;
  background-size:contain;
- background-image:url(images/garden.jpg);
+ background-image:url(images/lilies.png);
+ background-repeat:no-repeat;
+ width: 50vw; 
+ height:50vh;
+ padding:100px; 
+ margin-top: auto;
+ background-position: center; 
+ margin-bottom: 100px;
+    
+ }
+
+ .btn9{
+    display:absolute; 
+    align-items: center;
+    justify-content: center;
+ background-size:contain;
+ background-image:url(images/tree.jpeg);
  background-repeat:no-repeat;
  width: 50vw; 
  height:50vh;
@@ -184,18 +204,14 @@ margin-left:auto}
     margin-right:auto;
     margin-left:auto}
 
-    #title{
-        display:flex;
-        align-items: center;
-        justify-content: center;
-        color:rgb(170, 166, 166); 
-        text-align: center;
-        font-size: 80px; 
-        margin-bottom:0;
-    }
+    
+    
     
     .div9 { grid-area: 3 / 1 / 4 / 2; 
-        margin-top: 150px;
+       margin-top: 200px;
+        margin-bottom: auto;
+    margin-right:auto;
+    margin-left:auto
 }
     .div10 { grid-area: 4 / 1 / 5 / 2; }
     .div11 { grid-area: 4 / 2 / 5 / 3; }
